@@ -25,12 +25,14 @@
 .service-listing{
     margin: auto;
     float: left;
+    color: rgb(51, 51, 51);
     margin: 30px;
 }
 
 .home-page-content {
     font-size: 13px;
-    font-family: "Times New Roman", Times, serif;
+    /* font-family: "Times New Roman", Times, serif; */
+    font-family: arial, verdana, sans-serif;
     padding-left: 35px;
 }
 
