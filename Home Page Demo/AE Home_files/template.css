@@ -1,0 +1,202 @@
+	
+/*
+**  Template.css
+**
+**	Default Layout
+**
+*/
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+html, body {
+	height: 100%
+}
+
+	/*submenu always defaults to display none*/
+	div.submenu {display: none}
+    
+	#wb-container-outer {
+		background-color: #ededed;		
+		background-image: url(../images/layout1/outer-bg.gif);
+		background-repeat: repeat-x;
+		height: auto;
+		min-height: 100%;
+	}
+	
+	#wb-container-inner {
+		margin: auto;
+		width:836px;
+		background-color: transparent;
+		padding-bottom: 16px;
+	}
+		
+	#wb-layout {
+		width:836px;
+	}
+	
+	#wb-layout-inner {
+		width:836px;	
+		
+	}
+
+/* WB-LAYOUT-HEADER: This is the header section */
+	#wb-layout-header {
+		background-color: transparent;
+		background-image: url(../images/layout1/header-bg.jpg);		
+		background-position: top left;
+		background-repeat: no-repeat;
+	}
+
+	
+/* WB-LAYOUT-TOP-2: for designs that have navigation between the header and content 
+**	Layout 2
+**  Layout 3
+*/	
+	
+    #wb-navigation-subtop {
+		display: none;
+    }
+    
+    #wb-navigation-subtop div {
+     	float: left;
+     	padding: 9px 10px 11px;
+		text-align: center;
+		border-right:1px solid #702728;
+		width: auto;
+		background-color: #712829;
+		background-image: url(../nav-bg.gif);
+		background-position: top left;
+		background-repeat: repeat-x;
+    }
+	
+/* WB-CONTAINER-CONTENTWRAPPER: This wraps the content area of the site 
+**
+**	ALL Layouts
+**
+*/
+	#wb-container-contentwrapper {
+		width:800px;
+		height: 100%;
+		padding: 12px 18px 12px; 
+		background-color: transparent;
+		background-image: url(../content-bg.gif);
+		background-position: top left;
+		background-repeat: repeat-y;
+		 	
+	}
+	
+/* SIDEBAR is for designs that have a left or right column built in 
+**
+**	Layout 1
+**	Layout 2
+*/
+	#wb-layout-sidebar { 
+        float: right;
+        width: 172px;
+		padding: 4px; 
+        background-color: #ededed;
+		background-image:;
+		background-position:;
+		background-repeat:;
+	}
+	
+	/* sidebar navigation */
+	#wb-navigation {
+		width:172px;
+		background-color: transparent;
+		background-image:;
+		background-position:;
+		background-repeat:;
+	}
+	
+	#wb-navigation-top {
+		width: 172px;
+		padding-top: 0;
+		background-color: transparent;
+		background-image:;
+		background-position:;
+		background-repeat:;		
+	}
+	
+	#wb-navigation-bottom {
+	/* NO HEIGHT: 100%.  BREAKS FF. */
+		width: 172px;
+		padding-bottom: 0; 
+		background-color: transparent;
+		background-image:;
+		background-position:;
+		background-repeat:;
+	}
+	
+/* SIDEBAR NAVIGATION STRUCTURE 
+**
+**	Layout 1
+**	Layout 2
+**
+*/	
+	
+	#wb-navigation-bottom div {
+		width: 100%;
+		padding: 10px 8px 11px 12px;
+		text-align: left;
+		margin-bottom: 1px;
+		width: 152px;
+		
+		background-image: url(../images/layout1/nav-bg.gif);
+		background-position: top left;
+		background-repeat: repeat-x;
+	}
+		
+	#wb-basenav {
+	}
+	
+	#wb-navbasewrap {
+	}
+	
+	
+/* MAIN-CONTENT AREA
+**
+**	ALL Layouts
+**
+*/
+	#wb-layout-main {
+		width:608px;
+		height: 100%;
+		margin-left:;
+		float: right;
+		background-color: transparent;
+		background-image:;
+		background-position:;
+		background-repeat:;
+	}
+	
+	#wb-layout-main-inner-1 {		
+		     
+    }
+    
+	#wb-layout-main-inner-2  {
+		
+	}
+	
+/* Page FOOTER 
+**
+**	ALL Layouts
+**
+*/
+	#wb-layout-footer {
+		height: 86px;
+		width: 836px;
+		border: 0px;
+		margin-left: 0;
+		background-color: transparent;
+		background-image: url(../bottom-bg.gif);
+		background-position: top left;
+		background-repeat: no-repeat;
+		padding-top: 10px;
+	}
+	
+	
+

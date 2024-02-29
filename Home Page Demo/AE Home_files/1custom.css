@@ -1,0 +1,62 @@
+.moto{
+    width: 60%;
+    padding: 10px;
+    text-align: left;
+    float: left;
+}
+
+.content-heading {
+    padding: 20px;
+}
+
+.consumer-alert {
+    width: 30%;
+    float: left;
+    padding: 10px;
+    color: #ff0000;
+} 
+
+.estab {
+    float: left;
+    margin: 30px;
+    text-align: center;
+}
+
+.service-listing{
+    margin: auto;
+    float: left;
+    margin: 30px;
+}
+
+.home-page-content {
+    font-size: 13px;
+    font-family: "Times New Roman", Times, serif;
+    padding-left: 35px;
+}
+
+#contact-details {
+    text-align: right;
+}
+
+#wb-layout-header-mask {
+    padding: 10px;
+}
+
+.heading-col {
+    width: 40%;
+    float: left;
+}
+
+#logoDiv {
+    width: 473.75px;
+    height: 120px;
+}
+	
+#wb-layout-header-mask {
+    width:824px;
+    /* height:120px; */
+    padding:30px 6px;		
+        
+    overflow: hidden;
+}
+
