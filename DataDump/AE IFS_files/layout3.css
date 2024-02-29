@@ -1,0 +1,66 @@
+#wb-container-outer {
+	background-image: url(../images/layout3/outer-bg3.gif);
+}
+	
+/* WB-LAYOUT-HEADER: This is the header section */
+#wb-layout-header-mask {
+	margin-bottom:0;
+}
+				
+#wb-layout-header-base {
+	display: none;
+}
+#wb-layout-top {
+	position: relative;
+	top: 0;
+}
+
+#wb-container-contentwrapper {
+	top: 0;
+}
+
+#wb-layout-footer {
+	position: relative;
+	top: 0;
+}
+	
+#wb-navigation-subtop {
+	display: block;
+	width: 824px;
+	height: 38px;
+	padding-left: 6px;
+	padding-right: 6px;
+	background-color: transparent;
+	background-image: url(../images/layout3/navigation-bg3.gif);
+	background-position: top left;
+	background-repeat: no-repeat;
+	overflow: hidden;
+   }
+    
+#wb-layout-sidebar { 
+	display: none;
+}
+	
+/* MAIN-CONTENT Area */
+#wb-layout-main {
+	width:800px;
+	height: 100%;
+	margin-left:;
+	float: none;
+	background-image: none;
+}
+
+/* navigation submenus styles */
+#wb-navigation-subtop div.submenu {
+	padding: 0px;
+	background-image: none;
+	background-color: #ededed;
+	width: auto;
+}
+
+#wb-navigation-subtop div.submenu div {
+	padding: 10px 8px 11px 12px;
+	background-image: url(../images/layout1/nav-bg.gif);
+	border-right: 0px;
+	clear: both;
+}
