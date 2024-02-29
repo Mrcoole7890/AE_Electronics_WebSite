@@ -1,6 +1,6 @@
 # Action Electronics 
 
-## The goal of this repository is to clean up a website used by a local business as a personal exercise in my skill set.
+The goal of this repository is to clean up a website used by a local business as a personal exercise in my skill set.
 
 Firstly, I would like to reduce bloat.
 
